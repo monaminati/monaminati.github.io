@@ -2,14 +2,49 @@
 <html>
 <head>
   <title>Mono Minati</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Willkommen bei Mono Minati</h1>
-  <p>Schreib deinen Kommentar:</p>
-  <form>
-    <textarea name="comment" rows="4" cols="50"></textarea>
-    <br>
-    <button type="submit">Speichern</button>
-  </form>
+  <header>
+    <h1>Mono Minati</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac neque bibendum, lobortis enim eget, facilisis justo. Duis sollicitudin ullamcorper tellus a tristique. Nulla facilisi. Mauris euismod diam sed ex vestibulum, at dignissim augue dapibus. Sed tristique est id velit rhoncus, vel bibendum sapien volutpat. Praesent rhoncus bibendum augue, in maximus justo sagittis a. Etiam at malesuada nibh. Fusce sit amet dolor luctus, lobortis augue vitae, ullamcorper odio. Nam id sem vel arcu dictum fermentum. Fusce convallis tincidunt lacus in malesuada. Donec dapibus neque ac turpis ultricies, sit amet dictum risus vestibulum. Duis porttitor, felis a lacinia facilisis, nisl neque dapibus sapien, at dignissim metus elit et purus.</p>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Service 1</li>
+        <li>Service 2</li>
+        <li>Service 3</li>
+      </ul>
+    </section>
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div id="comments">
+        <!-- Hier werden die Kommentare angezeigt -->
+      </div>
+      <form>
+        <label for="comment">Write a Comment:</label>
+        <textarea id="comment" name="comment"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@monominati.com</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
